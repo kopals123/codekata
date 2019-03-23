@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
   double int a;
   scanf("%ld",&a);
@@ -9,5 +9,5 @@ void main()
       printf("Even");
   else
       printf("Odd");
-      
+  return 0;   
 }
