@@ -1,5 +1,5 @@
-a=int(input())
-if(a==0):
+N=int(input())
+if(N==0):
   print()
 else:
-  print("Hello\n"*a)
+  print("Hello\n"*N)
