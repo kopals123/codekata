@@ -1,3 +1,4 @@
+n=input()
 a=[int(z) for z in input().split()]
 c=[]
 for i in set(a):
