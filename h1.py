@@ -1,7 +1,7 @@
 n=input()
-a=[int(z) for z in input().split()]
-c=[]
-for i in set(a):
-    if(a.count(i)!=1):
-        c.append(i)
-print(*sorted(c))
+b=[int(m) for m in input().split()]
+d=[]
+for i in set(b):
+    if(b.count(i)!=1):
+        d.append(i)
+print(*sorted(d))
