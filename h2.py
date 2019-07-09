@@ -5,4 +5,7 @@ d=c[::-1]
 g=""
 for i in d:
     g=g+str(i)
-print(g)
+if(g.count("0")==len(g)):
+    print("0")
+else:
+    print(g)
