@@ -1,4 +1,4 @@
-n=input()
+p=input()
 b=[int(m) for m in input().split()]
 d=[]
 flag=0
