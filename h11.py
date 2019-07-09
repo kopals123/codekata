@@ -1,5 +1,5 @@
-b=input().split()
-a=[]
-for i in b:
-   a.append(i[::-1])
-print(*a)
+n=input().split()
+m=[]
+for i in n:
+   m.append(i[::-1])
+print(*m)
