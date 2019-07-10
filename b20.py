@@ -1,5 +1,5 @@
 z=int(input())
-b=n*5
+b=z*5
 k=[]
 for i in range(1,b+1):
     if(int(i)%z==0):
