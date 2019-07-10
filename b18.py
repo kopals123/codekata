@@ -9,7 +9,7 @@ def ams(n):
         sum=sum+(int(i)**3)
     if(sum==int(n)):
         return True
-for i in range(a,b+1):
+for i in range(a,b):
     if(ams(str(i))==True):
         k.append(i)
 print(*k)    
