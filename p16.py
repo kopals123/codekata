@@ -1,3 +1,4 @@
+n=int(input())
 z=input()
 c=[]
 for i in set(z):
