@@ -1,10 +1,11 @@
-n=int(input())
-z=input()
+z=int(input())
+p=input()
+a=p.split()
 c=[]
-for i in set(z):
-    c.append(z.count(i))
+for i in set(a):
+    c.append(a.count(i))
 d=min(c)
-for i in z:
-    if(z.count(i)==d):
+for i in a:
+    if(a.count(i)==d):
         print(i)
         break
