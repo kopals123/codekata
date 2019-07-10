@@ -1,3 +1,4 @@
+n=int(input())
 z=input()
 b=['a', 'e', 'i','o','u']
 c=[]
