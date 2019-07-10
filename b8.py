@@ -1,5 +1,5 @@
-n=int(input())
+z=int(input())
 sum=0
-for i in range(1,n+1):
-  sum=sum+i
+for i in range(1,z+1):
+    sum=sum+i
 print(sum)
