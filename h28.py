@@ -1,6 +1,7 @@
-a=input()
-k=list(a)
-v=[]
-for i in set(k):
-    v.append(i)
-print("".join(v))
+def removeDuplicates(string):
+    uniqs = ''
+    for x in string:
+        if not(x in uniqs):
+            uniqs = uniqs + x
+    print(uniqs)
+removeDuplicates(input())
