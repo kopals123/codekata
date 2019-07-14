@@ -1,0 +1,9 @@
+n=input().split()
+m=input().split()
+b=int(n[0])
+c=int(n[1])
+d=int(m[0])
+e=int(m[1])
+f=b+d
+g=c+e
+print(f,g)
