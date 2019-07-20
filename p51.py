@@ -1,4 +1,4 @@
 a=input()
 b=input().split()
-b.remove(max(b))
-print(max(b))
+b.remove(min(b))
+print(min(b))
