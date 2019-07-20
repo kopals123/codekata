@@ -1,0 +1,5 @@
+a=input().split()
+d=int(a[1])
+b=input().split()
+c=sorted(b)
+print(b[d-1])
