@@ -1,2 +1,2 @@
 a=input().split()
-print(("".join(a)))
+print((" ".join(a)))
